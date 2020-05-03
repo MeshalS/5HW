@@ -12,4 +12,7 @@ var RowDiv =$('<div>');
 RowDiv.addClass('row');  
 RowDiv.addClass('PlannerRow');
 RowDiv.attr('hour-index',hours);
+
+var colTimeDiv=$('<div>');
+colTimeDiv.attr('class','col-md-2')
 }
